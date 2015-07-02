@@ -14,6 +14,7 @@
 		24854D081B391008003D1A39 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24854D071B391008003D1A39 /* Images.xcassets */; };
 		24854D0B1B391008003D1A39 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24854D091B391008003D1A39 /* LaunchScreen.xib */; };
 		24854D171B391008003D1A39 /* AnglerFishTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24854D161B391008003D1A39 /* AnglerFishTests.m */; };
+		24854D221B391422003D1A39 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 24854D211B391422003D1A39 /* Game.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		24854D101B391008003D1A39 /* AnglerFishTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnglerFishTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24854D151B391008003D1A39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24854D161B391008003D1A39 /* AnglerFishTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnglerFishTests.m; sourceTree = "<group>"; };
+		24854D201B391422003D1A39 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Game.h; path = ../Game.h; sourceTree = "<group>"; };
+		24854D211B391422003D1A39 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Game.m; path = ../Game.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				24854CFF1B391008003D1A39 /* AppDelegate.m */,
 				24854D011B391008003D1A39 /* ViewController.h */,
 				24854D021B391008003D1A39 /* ViewController.m */,
+				24854D201B391422003D1A39 /* Game.h */,
+				24854D211B391422003D1A39 /* Game.m */,
 				24854D041B391008003D1A39 /* Main.storyboard */,
 				24854D071B391008003D1A39 /* Images.xcassets */,
 				24854D091B391008003D1A39 /* LaunchScreen.xib */,
@@ -222,6 +227,7 @@
 				24854D031B391008003D1A39 /* ViewController.m in Sources */,
 				24854D001B391008003D1A39 /* AppDelegate.m in Sources */,
 				24854CFD1B391008003D1A39 /* main.m in Sources */,
+				24854D221B391422003D1A39 /* Game.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +422,7 @@
 				24854D1C1B391008003D1A39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		24854D1D1B391008003D1A39 /* Build configuration list for PBXNativeTarget "AnglerFishTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				24854D1F1B391008003D1A39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
